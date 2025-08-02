@@ -1,0 +1,28 @@
+body {
+  background-color: #fefefe;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ccc;
+}
+
+#tempo {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.botoes button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
