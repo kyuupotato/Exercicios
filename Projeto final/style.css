@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#tema-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.ferramenta {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+}
+
+body.dark .ferramenta {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px #444;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#cor-display {
+  font-size: 24px;
+  margin: 10px 0;
+  font-weight: bold;
+}

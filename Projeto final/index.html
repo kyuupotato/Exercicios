@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Ferramentas Úteis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mini Ferramentas em JavaScript</h1>
+    <button id="tema-btn">🌙 Modo Escuro</button>
+  </header>
+
+  <main>
+    <section class="ferramenta" id="cores">
+      <h2>🎨 Gerador de Cores</h2>
+      <div id="cor-display">#ffffff</div>
+      <button id="gerar-cor">Gerar Cor</button>
+    </section>
+
+    <section class="ferramenta" id="palindromo">
+      <h2>🔁 Verificador de Palíndromos</h2>
+      <input type="text" id="entrada-palindromo" placeholder="Digite uma palavra ou frase">
+      <button id="verificar-palindromo">Verificar</button>
+      <p id="resultado-palindromo"></p>
+    </section>
+
+    <section class="ferramenta" id="contador">
+      <h2>🧮 Contador de Cliques</h2>
+      <p id="contador-valor">0</p>
+      <button id="contador-btn">Clique aqui</button>
+      <button id="resetar-contador">Resetar</button>
+    </section>
+
+    <section class="ferramenta" id="cronometro">
+      <h2>⏱ Cronômetro</h2>
+      <div id="cronometro-display">00:00</div>
+      <button id="iniciar">Iniciar</button>
+      <button id="pausar">Pausar</button>
+      <button id="zerar">Zerar</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
